@@ -1,0 +1,23 @@
+# Ignore Mac System files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore the Virtual Environment (HUGE FOLDER)
+emotion_env/
+env/
+venv/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore generated data logs
+*.csv
+
+# Ignore large model weights if they downloaded locally
+*.h5
+*.pt
+*.pth
+.deepface/
